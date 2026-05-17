@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 
 public class TestRunner extends BaseClass {
     public static void main(String[] args) throws InterruptedException {
+       System.out.println("statr2");
         launchBrowser(PageObjectManager.getPageObjectManager().getFileReader().getDataProperty("browser"));
         launchUrl(PageObjectManager.getPageObjectManager().getFileReader().getDataProperty("url"));
         PageObjectManager.getPageObjectManager().getLoginPage().validLogin();
