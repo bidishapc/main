@@ -14,6 +14,7 @@ public class TestRunner extends BaseClass {
         PageObjectManager.getPageObjectManager().getCheckout().checkoutPage();
         PageObjectManager.getPageObjectManager().getAddressPage().addressPage();
         screenshot(PageObjectManager.getPageObjectManager().getFileReader().getDataProperty("screenshot"));
+      
     System.out.println("end");
     }
 }
